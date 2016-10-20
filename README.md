@@ -184,7 +184,7 @@ that is, the start position will take effect and delivery will start from there.
 
 ### Durable Queue Groups
 
-As described above, for non durable queue subsribers, when the last member leaves the group,
+As described above, for non durable queue subscribers, when the last member leaves the group,
 that group is removed. A durable queue group allows you to have all members leave but still
 maintain state. When a member re-joins, it starts at the last position in that group.
 
